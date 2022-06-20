@@ -1,0 +1,30 @@
+{
+  "name": "ahj_hw_http",
+  "version": "1.0.0",
+  "description": "Http_server_kostiaev",
+  "main": "server.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergeiKostiaev/ahj_hw_http.git"
+  },
+  "author": "KostiaevSV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergeiKostiaev/ahj_hw_http/issues"
+  },
+  "homepage": "https://github.com/SergeiKostiaev/ahj_hw_http#readme",
+  "dependencies": {
+    "forever": "^4.0.3",
+    "koa": "^2.13.4",
+    "koa-body": "^5.0.0",
+    "uuid": "^8.3.2"
+  }
+}
